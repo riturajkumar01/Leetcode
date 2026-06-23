@@ -1,0 +1,69 @@
+cmake_minimum_required(VERSION 4.2)
+project(DSA_Advance_concept_of_c)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_executable(DSA_Advance_concept_of_c
+        "palindrome(recursion)/palindrome.cpp"
+        "Parameterized(oops)/Parameterized.cpp"
+        Recursion/recursion.cpp
+        validparenthesis/ValidParentheses.cpp
+        104letcode.cpp
+        allpairsshortest.cpp
+        anagram.cpp
+        armstrong.cpp
+        arr.cpp
+        "basic inheritance.cpp"
+        bellmanfordalgo.cpp
+        bfs.cpp
+        BFSgraph.cpp
+        bianryconcept.cpp
+        cyclesort.cpp
+        deletion.cpp
+        deletionheap.cpp
+        Diamondpattern.cpp
+        dijkastraalgorithm.cpp
+        enumeration.cpp
+        expo.cpp
+        exponent.cpp
+        factorial.cpp
+        fiboonaci.cpp
+        graph.cpp
+        graphdfs.cpp
+        hashmap.cpp
+        hashmap2.cpp
+        heap.cpp
+        heapsort.cpp
+        insertion.cpp
+        kahn's.cpp
+        leapyear.cpp
+        "leetcode reversell.cpp"
+        list.cpp
+        maxoccur.cpp
+        merge.cpp
+        mergesort.cpp
+        mergetwobinary.cpp
+        minheap.cpp
+        minmax.cpp
+        missingnumber.cpp
+        oopsconcept.cpp
+        powerrecursion.cpp
+        printcountingrecursion.cpp
+        priorituqueue.cpp
+        priorityqueue.cpp
+        quicksort.cpp
+        recursionbinary.cpp
+        removeallcharacalphabet.cpp
+        replace.cpp
+        reversearray.cpp
+        reversestring.cpp
+        revstring.cpp
+        sortedunsorted.cpp
+        sorting.cpp
+        stack.cpp
+        staticfuncandmember.cpp
+        stl.cpp
+        str.cpp
+        sumofarrayrecursion.cpp
+        tempCodeRunnerFile.cpp
+        topologicalsort2.cpp)
